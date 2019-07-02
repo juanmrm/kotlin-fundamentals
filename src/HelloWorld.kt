@@ -1,3 +1,3 @@
-fun main(): Unit{
+fun main() {
     print("Hello World!")
 }
