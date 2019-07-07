@@ -37,11 +37,11 @@ to a variable like
     else "Try again?
 ```
 
-### Improve handling of null valuesç
+### Improve handling of null values
 - We cannot assing a null value to a variable if we don't explicitly say that this variable can either be null or contain a variable with ? `var name: String? = null`
 
 ### Switch statement doesn't exist, instead `when`
-- Very powerfull
+- Very powerful
 ```
 when (answer) {
     correctAnswer -> println("You were correct")
@@ -61,7 +61,7 @@ when (answer) {
 
 ### Looping constructs
 - `While` and `do` works the same as Java
-- `for` loops are different using `Ranges`, a very powerfull feature of Kotlin using `step, until, downTo, withIndex...`
+- `for` loops are different using `Ranges`, a very powerful feature of Kotlin using `step, until, downTo, withIndex...`
 
 ### Support for exceptions
 - In Java you either catch the exception or rethrow it. Kotlin uses essentially Unchecked exceptions so you don't neet to catch them.
